@@ -1,5 +1,5 @@
 body {
-
+background-color: #FAE469;
 }
 
 main {
@@ -9,7 +9,7 @@ main {
 }
 
 header {
-	background-color: #AD0C49;
+	background-color: #7569FA;
 }
 
 #nav {
@@ -65,11 +65,20 @@ h3 {
 
 p {
 	overflow: scroll;
-	border: 1px solid black;
+	border: 5px solid black;
 	width: 450px;
 	height: 350px;
 }
 
-button {
+button:hover {
 	padding-top: 10px;
+}
+
+img {
+	border-radius: 50px;
+}
+
+footer {
+	padding-top: 100px;
+	background-color: #8C88B7;
 }
